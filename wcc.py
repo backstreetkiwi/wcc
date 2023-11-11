@@ -43,3 +43,6 @@ if __name__ == "__main__":
             pretty_week = ' '.join([f"{day :02}" for day in week])
             print(pretty_week + " :-(")
 
+    print()
+    flattened_cube_config = [x for sublist in cube_definition for x in sublist]
+    print([x for x in set(flattened_cube_config) if flattened_cube_config.count(x)==1])

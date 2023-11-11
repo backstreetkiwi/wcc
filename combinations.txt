@@ -11,6 +11,9 @@ def cube_definition():
         [  7, 14, 21, 28,  4, 31 ]
     ]
 
+5..30 do exist exactly once. 
+
+For all weeks which contain 1..4 and/or 31 there is some puzzling required...
 
 01 02 03 04 05 06 07 -> [1, 2, 3, 4, 5, 6, 7]
 02 03 04 05 06 07 08 -> [2, 3, 4, 5, 6, 7, 1]
